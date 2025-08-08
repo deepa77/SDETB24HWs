@@ -5,27 +5,24 @@ public class E4RelationalOperators {
 
 
 // Step 1: Declare Variables with Specific Values
-//   - Declare an integer variable named 'age' and assign it the value 18.
-//   - Declare an integer variable named 'temperature' and assign it the value 30.
-//   - Declare an integer variable named 'score' and assign it the value 75.
+        int age = 18;
+        int temperature =  30;
+        int score = 75;
 
 // Step 2: Write Relational Comparisons (Ensure the test cases pass)
-//   - Compare 'age' with 18 using the greater than or equal operator (>=):
-//       Expected: (age >= 18) should output true.
-//   - Compare 'temperature' with 35 using the less than operator (<):
-//       Expected: (temperature < 35) should output true.
-//   - Compare 'score' with 75 using the equality operator (==):
-//       Expected: (score == 75) should output true.
-//   - Compare 'score' with 100 using the not equal operator (!=):
-//       Expected: (score != 100) should output true.
-//   - Compare 'age' with 20 using the less than operator (<):
-//       Expected: (age < 20) should output true.
-
+        age>=18;
+        temperature<15;
+        score==75;
+        score!=100;
+        age <20;
+            
+        
 // Step 3: Print Each Comparison Result
-//   - Use System.out.println to print the result of each relational expression.
-//   - Ensure each print statement outputs exactly the boolean value as expected:
-
-
+        System.out.println(age >= 18);
+        System.out.println(temperature < 35);
+        System.out.println(score == 75);
+        System.out.println(score != 100);
+        System.out.println(age < 20);
 
     }
 }
